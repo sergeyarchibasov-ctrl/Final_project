@@ -10,11 +10,6 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        System.setProperty(
-                "webdriver.chrome.driver",
-                "C:\\WebDriver\\chrome\\chromedriver.exe"
-        );
-
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.timeout = 10000;
